@@ -1,4 +1,4 @@
-[app]
+grep -nE '^(requirements|android.api|android.minapi|p4a.branch|p4a.commit|android.ndk)' android_app/buildozer.spec[app]
 
 title = JARVIS
 
@@ -10,8 +10,7 @@ source.include_exts = py,png,jpg,kv,atlas
 
 version = 0.1
 
-requirements = python3,kivy
-
+requirements = python3,kivy,charset-normalizer==2.1.1
 orientation = portrait
 fullscreen = 0
 
@@ -19,3 +18,4 @@ fullscreen = 0
 
 log_level = 2
 warn_on_root = 1
+
