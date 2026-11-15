@@ -1,5 +1,5 @@
 grep -nE '^(requirements|android.api|android.minapi|p4a.branch|p4a.commit|android.ndk)' android_app/buildozer.spec[app]
-
+[app]
 title = JARVIS
 
 package.name = jarvis
